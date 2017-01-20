@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<config>
+  <modules>
+    <Wonder_MaxItens>
+      <version>0.0.1</version>
+    </Wonder_MaxItens>
+  </modules>
+  <global>
+    <models>
+      <wonder_maxitens>
+        <class>Wonder_MaxItens_Model</class>
+      </wonder_maxitens>
+    </models>
+    <events>
+      <sales_quote_add_item>
+        <observers>
+          <max_itens>
+            <class>Wonder_MaxItens_Model_Observer</class>
+            <method>maxItens</method>
+          </max_itens>
+        </observers>
+      </sales_quote_add_item>
+    </events>
+  </global>
+</config>

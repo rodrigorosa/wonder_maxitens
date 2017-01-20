@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Wonder_MaxItens>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Wonder_MaxItens>
+  </modules>
+</config>
